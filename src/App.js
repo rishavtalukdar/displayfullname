@@ -36,7 +36,7 @@ function App() {
         <input type="text" value={lname} name="lname" onChange={valueChange} required></input><br></br>
         <button type="submit">Submit</button>
       </form>
-        {valuefilled ?  `Full Name: ${fname} ${lname}`: <></>}
+        {valuefilled ?  <div>`Full Name: ${fname} ${lname}`</div>: <></>}
     </div>
   );
 }
